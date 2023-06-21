@@ -3,12 +3,11 @@ const DEFAULT_OPTIONS = {
 };
 const LOTTIE_PLAYER_NODE = 'LOTTIE-PLAYER';
 const ERROR_PREFIX = '[lottieInteractivity]:';
-
 /**
  * LottieFiles interactivity for Lottie
  */
 export class LottieInteractivity {
-  constructor({ actions, container, mode, player, ...options } = DEFAULT_OPTIONS) {
+  constructor({ actions, container, mode, player, ...options }) {
     // Save the original player entered by user, used for interaction chaining / loading animations on the fly
     this.enteredPlayer = player;
 

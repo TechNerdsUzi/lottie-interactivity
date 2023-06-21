@@ -28,7 +28,7 @@
     "fastify": "^3.23.1",
     "fastify-static": "^4.5.0",
     "folio": "^0.3.18",
-    "husky": "^4.2.5",
+    "husky": "^4.3.8",
     "lint-staged": "^10.1.7",
     "prettier": "^2.0.5",
     "rollup": "^2.6.1",
